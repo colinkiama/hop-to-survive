@@ -1,0 +1,28 @@
+{
+    "name": "hop-to-survive",
+    "description": "A Phaser 3 template using Vite.",
+    "version": "0.0.1",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/colinkiama/hop-to-survive.git"
+    },
+    "author": "Colin Kiama <colinkiama@gmail.com> (https://colinkiama.com/)",
+    "license": "MIT",
+    "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+    "bugs": {
+        "url": "https://github.com/colinkiama/hop-to-survive.git/issues"
+    },
+    "homepage": "https://github.com/phaserjs/hop-to-survive.git#readme",
+    "scripts": {
+        "dev": "vite --config vite/config.dev.mjs",
+        "build": "vite build --config vite/config.prod.mjs"
+    },
+    "devDependencies": {
+        "terser": "^5.31.0",
+        "vite": "^5.3.1"
+    },
+    "dependencies": {
+        "phaser": "^3.80.1"
+    }
+}
