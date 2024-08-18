@@ -31,7 +31,8 @@ const config = {
                 y: 300
             }
         },
-    }
+    },
+    disableContextMenu: true
 };
 
 export default new Phaser.Game(config);
